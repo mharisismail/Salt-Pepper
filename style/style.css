@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --grey: #1d1d1d;
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: apecru;
+    src: url(../fonts/Apercu-Font/Apercu\ medium.otf);
+
+}
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak/futurak.ttf);
+}
+body{
+    font-family: inter;
+}
+/* navbar started */
+.main-logo{
+   width: 165px ;
+}
