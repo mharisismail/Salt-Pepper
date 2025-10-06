@@ -20,6 +20,10 @@ html{
     font-family: futurak;
     src: url(../fonts/futurak/futurak.ttf);
 }
+@font-face {
+    font-family: butler;
+    src: url(../fonts/butler/Butler_Regular.otf);
+}
 body{
     font-family: inter;
 }
@@ -104,5 +108,83 @@ font-weight: lighter;
     color: var(--white);
     /* margin: 24px 19px 0px; */
     padding: 10px 45px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+.brand-btn2{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    color: var(--white);
+    /* margin: 24px 19px 0px; */
+    padding: 10px 45px;
+    font-size: 1.4rem;
+    
 
+}
+/* our brands ended */
+/* franchise started */
+.sec-1{
+    background: var(--grey);
+    padding: 70px;
+  
+}
+.fr-head{
+ font-family: butler;
+ font-size: 4.8rem;
+ font-weight: lighter;
+}
+.fr1{
+    gap: 50px ;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.para-2{
+    font-size: 1.6rem;
+    font-family: apecru;
+    font-weight: lighter;
+    margin-bottom: 48px;
+}
+.red-head{
+    color: var(--red);
+    font-size: 1.6rem;
+    font-family: apecru;
+    text-transform: uppercase;
+    margin-bottom: 8px ;
+}
+.fr-d{
+    font-size: 3.2rem;
+    font-family: apecru;
+    margin-bottom: 24px;
+}
+.sp2{
+    font-family: futurak;
+    /* margin-bottom: 24px; */
+}
+.fr-para1{
+    font-size: 1.6rem;
+    font-family: apecru;
+    margin-bottom: 10px;
+}
+.phone1{
+    font-size: 1.6rem;
+    font-family: apecru;
+}
+.isb-btn{
+    background: transparent;
+    color: var(--white);
+    margin-top: 40px;
+    padding: 15px 12px ;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+}
+.res2{
+    margin-top: 50px;
+}
+.fr-2{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.fr3{
+    margin-top: 50px ;
 }
