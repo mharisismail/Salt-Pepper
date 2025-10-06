@@ -13,7 +13,7 @@ html{
 }
 @font-face {
     font-family: apecru;
-    src: url(../fonts/Apercu-Font/Apercu\ medium.otf);
+    src: url(../fonts/Apercu-Font/Apercu\ regular.otf);
 
 }
 @font-face {
@@ -69,4 +69,40 @@ nav>button{
     /* navbar ended */
 .bg-1{
     width: 100%;
+}
+/* our brands started */
+.our-brands{
+    font-size: 1.6rem;
+    padding-top: 70px;
+    padding-bottom: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.head-01{
+font-family: apecru;
+font-size: 4rem;
+font-weight: lighter;
+}
+.sp1{
+    font-size: 5.2rem;
+    font-family: futurak;
+}
+.brand-container{
+    
+    /* background-color: var(--white); */
+    padding: 0 19px;
+}
+.brand1{
+    background-color:var(--white);
+    width: 212px;
+}
+.brand-btn1{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    color: var(--white);
+    /* margin: 24px 19px 0px; */
+    padding: 10px 45px;
+
 }
