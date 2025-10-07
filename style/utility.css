@@ -32,11 +32,18 @@ body{
 .item-center{
     align-items: center;
 }
+.item-start{
+    align-items:flex-start;
+
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
 .flex-column{
     flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
 }
 .text-none{
     text-decoration: none;
@@ -100,7 +107,12 @@ body{
 .m-t {
      margin-top: 5px;
      }
-
+.m-t-2{
+    margin-top: 25px;
+}
+.m-b-2{
+    margin-bottom: 30px;
+}
 .m-b {
      margin-bottom: 5px;
      }

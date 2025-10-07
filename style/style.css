@@ -91,6 +91,7 @@ font-weight: lighter;
 .sp1{
     font-size: 5.2rem;
     font-family: futurak;
+    font-weight: lighter;
 }
 .brand-container{
     
@@ -187,4 +188,50 @@ font-weight: lighter;
 }
 .fr3{
     margin-top: 50px ;
+}
+/* franchise ended  */
+/* express started */
+.exp-fr{
+    margin-top: 60px;
+    padding: 70px;
+    background-color: var(--grey);
+
+}
+.butler{
+    font-family: butler;
+    font-size: 4.8rem;
+    font-weight: lighter;
+    
+}
+.sp-e{
+    font-family: futurak;
+    font-size: 3.2rem;
+    margin-bottom: 18px;
+}
+.sp-b{
+    font-family: butler;
+    font-size: 3.2rem;
+}
+.get-dir{
+    font-size: 1.4rem;
+    margin-top: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 15px 12px ;
+    color: var(--white);
+}
+.arrow-up{
+    color: var(--red);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.margin{ 
+    margin-top: 40px;
+}
+.DHA{
+    display: inline-block;
+    text-align: center;
 }
