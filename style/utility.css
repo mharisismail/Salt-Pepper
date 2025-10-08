@@ -1,4 +1,4 @@
-/* boiler plate */
+
 *{
     margin: 0;
     padding: 0;
@@ -109,6 +109,9 @@ body{
      }
 .m-t-2{
     margin-top: 25px;
+}
+.m-t-3{
+    margin-top: 20px;
 }
 .m-b-2{
     margin-bottom: 30px;
