@@ -6,7 +6,7 @@ html{
   --white: #ffffff;
   --red: #ed1c24;
   --grey: #0f0f0f;
-  --green: #239d3f
+  --green: #239d3f;
 }
 @font-face {
     font-family: inter;
@@ -294,4 +294,38 @@ font-weight: lighter;
         font-size: 2.6rem;
         font-weight: bold;
     }
-
+    /* footer started */
+.footer{
+    padding: 70px;
+    background-color: var(--grey);
+}
+.fr-para2{
+    font-family: apecru;
+    font-size: 1.5rem;
+}
+.links{
+    font-family: apercu;
+    font-size: 1.6rem;
+    padding-bottom: 24px;
+}
+.links1>a{
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-family: apercu;
+    margin-bottom: 10px;
+}
+.contact>h5{
+    font-size: 1.6rem;
+    font-family: butler;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    color: var(--white);
+}
+.contact>p{
+    font-size: 1.5rem;
+    font-family: apecru;
+    padding-bottom: 30px;
+    color: #afaaaa
+}
