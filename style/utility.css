@@ -69,7 +69,7 @@ body{
  }
 
 .m-2 {
-     margin: 10px; 
+     margin: 0px 12px 10px 0px; 
     }
 
 .m-3 {
@@ -113,6 +113,9 @@ body{
 .m-t-3{
     margin-top: 20px;
 }
+.mt-3{
+    margin-top: 40px;
+}
 .m-b-2{
     margin-bottom: 30px;
 }
@@ -123,7 +126,7 @@ body{
     margin-bottom: 20px;
 }
 .m-b {
-     margin-bottom: 5px;
+     margin-bottom: 10px;
      }
 
 .m-l {

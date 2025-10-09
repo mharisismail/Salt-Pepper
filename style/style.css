@@ -343,3 +343,6 @@ font-weight: lighter;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
+.o1{
+    cursor: pointer;
+}

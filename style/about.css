@@ -10,7 +10,7 @@ html{
 }
 @font-face {
     font-family: inter;
-    src: url(../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
 @font-face {
     font-family: apecru;
@@ -76,7 +76,7 @@ nav>button{
     /* navbar ended */
     /* main started */
     .intro{
-        padding: 72px;
+        padding: 40px;
     }
     .butler{
         font-family: butler;
@@ -87,6 +87,12 @@ nav>button{
     .apecru{
         font-family: apecru;
         font-size: 1.6rem;
+         color: #ada9a9;
+    }
+    .apecru2{
+        font-family: apecru;
+        font-size: 1.5rem;
+        color: #ada9a9;
     }
     .res{
         padding: 0px 12px;
@@ -96,3 +102,142 @@ nav>button{
         font-size: 3.2rem;
         
     }
+    .futurak{
+        font-family: futurak;
+        font-size: 3.2rem;
+    }
+    .img-3{
+        width: 456px;
+        /* height: 290.34px; */
+    }
+    .text{
+        text-align: justify;
+    }
+    .exp{
+        margin: 32px 0px 70px;
+    }
+    .exp-fr{
+    margin-top: 60px;
+    padding: 70px;
+    /* background-color: var(--grey); */
+
+}
+.butler{
+    font-family: butler;
+    font-size: 4.8rem;
+    font-weight: lighter;
+    
+}
+.sp-e{
+    font-family: futurak;
+    font-size: 2.4rem;
+    margin-bottom: 18px;
+}
+.sp-b{
+    font-family: butler;
+    font-size: 2.4rem;
+}
+.get-dir{
+    font-size: 1.4rem;
+    /* margin-top: 40px; */
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 15px 12px ;
+    color: var(--white);
+    cursor: pointer;
+}
+.arrow-up{
+    color: var(--red);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.margin{ 
+    margin-top: 40px;
+}
+.DHA{
+    display: inline-block;
+    text-align: center;
+}
+.img-2{
+    width: 350px;
+    height: 198px;
+}
+.red-head2{
+     color: var(--red);
+    font-size: 1.4rem;
+    font-family: apecru;
+    text-transform: uppercase;
+    margin-bottom: 8px ;
+     }
+     .fr-para1{
+    font-size: 1.6rem;
+    font-family: apecru;
+    margin-bottom: 10px;
+}
+.phone1{
+    font-size: 1.6rem;
+    font-family: apecru;
+}
+.red-head{
+    color: var(--red);
+    font-size: 1.6rem;
+    font-family: apecru;
+    text-transform: uppercase;
+    margin-bottom: 8px ;
+}
+     /* express ended */
+     /* footer started */
+     .footer{
+    padding: 70px;
+    background-color: var(--grey);
+}
+.fr-para2{
+    font-family: apecru;
+    font-size: 1.5rem;
+}
+.links{
+    font-family: apercu;
+    font-size: 1.6rem;
+    padding-bottom: 24px;
+}
+.links1>a{
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-family: apercu;
+    margin-bottom: 10px;
+}
+.contact>h5{
+    font-size: 1.6rem;
+    font-family: butler;
+    font-weight: lighter;
+    padding-bottom: 24px;
+    color: var(--white);
+}
+.contact>p{
+    font-size: 1.5rem;
+    font-family: apecru;
+    padding-bottom: 30px;
+    color: #afaaaa
+}
+.social1{
+     background-color: var(--red);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white); 
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.o1{
+    cursor: pointer;
+}
