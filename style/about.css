@@ -191,7 +191,7 @@ nav>button{
      /* express ended */
      /* footer started */
      .footer{
-    padding: 70px;
+    padding: 70px 15px;
     background-color: var(--grey);
 }
 .fr-para2{
@@ -240,4 +240,13 @@ nav>button{
 }
 .o1{
     cursor: pointer;
+}
+.inter6{
+    font-size: 1.4rem;
+    font-family: inter;
+}
+.butler2{
+    font-family: butler;
+    font-size: 1.6rem;
+    font-weight: lighter;
 }
